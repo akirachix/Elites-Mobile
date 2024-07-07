@@ -14,25 +14,39 @@
         android:layout_width="249dp"
         android:layout_height="242dp"
         android:layout_marginStart="103dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="103dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_design" />
+
     <Button
         android:id="@+id/btn1"
         android:layout_width="218dp"
         android:layout_height="86dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="53dp"
+        android:layout_marginTop="156dp"
         android:layout_marginEnd="24dp"
         android:text="Get Started"
 
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/white"
+        android:text="Keeping you informed and updated on the prices for all input products for all your farnmactivities"
+        app:layout_constraintBottom_toTopOf="@+id/btn1"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 

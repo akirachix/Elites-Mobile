@@ -16,10 +16,27 @@ class MainActivity5 : AppCompatActivity() {
         binding = ActivityMain5Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnLogin.setOnClickListener{
+        binding.btnLogin.setOnClickListener {
             val intent = Intent(this, MainActivity6::class.java)
             startActivity(intent)
+            validateRegistration()
         }
-
     }
-}
+
+        fun validateRegistration(){
+            var formErr = false
+            val enterUserName = binding.etUserName.text.toString()
+            if (enterUserName.isBlank()){
+                formErr = true
+                binding.tilUserName.error = "Enter password is required"
+            }
+            val enterPassword = binding.etPassword.text.toString()
+            if (enterPassword.isBlank()){
+                formErr = true
+                binding.tilenterPassword.error = "password is required"
+            }
+
+        }
+    }
+
+

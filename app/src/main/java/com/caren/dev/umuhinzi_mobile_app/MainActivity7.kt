@@ -18,7 +18,7 @@ class MainActivity7 : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnBack.setOnClickListener{
-            val intent = Intent(this,MainActivity6::class.java)
+            val intent = Intent(this,MainActivity8::class.java)
             startActivity(intent)
         }
 

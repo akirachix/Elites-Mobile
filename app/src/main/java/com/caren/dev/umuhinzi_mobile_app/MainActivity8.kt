@@ -18,7 +18,7 @@ class MainActivity8 : AppCompatActivity() {
         setContentView(R.layout.activity_main8)
 
         binding.btnEditDetails.setOnClickListener{
-            val intent = Intent(this, MainActivity8::class.java)
+            val intent = Intent(this, MainActivity9::class.java)
             startActivity(intent)
         }
 

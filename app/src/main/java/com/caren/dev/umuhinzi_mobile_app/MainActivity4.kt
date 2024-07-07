@@ -17,9 +17,24 @@ class MainActivity4 : AppCompatActivity() {
         setContentView(binding.root)
 
        binding.btnRegister.setOnClickListener{
-           val intent =Intent(this,MainActivity6::class.java)
+           val intent =Intent(this,MainActivity5::class.java)
            startActivity(intent)
+           validateRegistration()
        }
+
+    }
+    fun validateRegistration(){
+        var formErr = false
+        val enterPassword = binding.etPassword.text.toString()
+        if (enterPassword.isBlank()){
+            formErr = true
+            binding.etPassword.error = "Enter password is required"
+        }
+        val confirmPassword = binding.etConfirmPassword.text.toString()
+        if (confirmPassword.isBlank()){
+            formErr = true
+            binding.etConfirmPassword.error = "Confirm password is required"
+        }
 
     }
 }
