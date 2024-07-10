@@ -13,28 +13,45 @@ class MainActivity4 : AppCompatActivity() {
     lateinit var binding: ActivityMain4Binding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding =ActivityMain4Binding.inflate(layoutInflater)
+        binding = ActivityMain4Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-       binding.btnRegister.setOnClickListener{
-           val intent =Intent(this,MainActivity5::class.java)
-           startActivity(intent)
-           validateRegistration()
-       }
+        binding.btnRegister.setOnClickListener {
+            validateRegistration()
+        }
 
     }
-    fun validateRegistration(){
+
+    fun validateRegistration() {
         var formErr = false
         val enterPassword = binding.etPassword.text.toString()
-        if (enterPassword.isBlank()){
+        val confirmPassword = binding.etConfirmPassword.text.toString()
+
+        if (enterPassword.isBlank()) {
             formErr = true
             binding.etPassword.error = "Enter password is required"
-        }
-        val confirmPassword = binding.etConfirmPassword.text.toString()
-        if (confirmPassword.isBlank()){
-            formErr = true
-            binding.etConfirmPassword.error = "Confirm password is required"
+        } else {
+            binding.etPassword.error = null
         }
 
+        if (confirmPassword.isBlank()) {
+            formErr = true
+            binding.etConfirmPassword.error = "Confirm password is required"
+        } else {
+            binding.etConfirmPassword.error = null
+        }
+
+        if (enterPassword.isNotBlank() && confirmPassword.isNotBlank() && enterPassword != confirmPassword) {
+            formErr = true
+            binding.etConfirmPassword.error = "Passwords do not match"
+        } else {
+            binding.etConfirmPassword.error = null
+        }
+
+        if (!formErr) {
+            // Proceed to registration
+            val intent = Intent(this, MainActivity6::class.java)
+            startActivity(intent)
+        }
     }
 }

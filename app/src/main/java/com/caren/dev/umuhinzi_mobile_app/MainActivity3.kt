@@ -18,37 +18,50 @@ class MainActivity3 : AppCompatActivity() {
 
 
         binding.btnNextPage.setOnClickListener{
-            val intent = Intent(this,MainActivity4::class.java)
-            startActivity(intent)
             validateRegistration()
         }
 
     }
-    fun validateRegistration(){
-        var formErr= false
-        var firstName = binding.etFirstName.text.toString()
-        if (firstName.isBlank()){
+    fun validateRegistration() {
+        var formErr = false
+        val firstName = binding.etFirstName.text.toString()
+        if (firstName.isBlank()) {
             formErr = true
             binding.tilFirstname.error = "First name is required"
+        } else {
+            binding.tilFirstname.error = null
         }
+
         val lastName = binding.etLastName.text.toString()
-        if (lastName.isBlank()){
-            formErr= true
-            binding.tilLastName.error ="lastnameis required"
-        }
-        val id =binding.etId.text.toString()
-        if (id.isBlank()){
+        if (lastName.isBlank()) {
             formErr = true
-            binding.tilId.error = "Id nuumber is required"
+            binding.tilLastName.error = "Last name is required"
+        } else {
+            binding.tilLastName.error = null
         }
+
+        val id = binding.etId.text.toString()
+        if (id.isBlank()) {
+            formErr = true
+            binding.tilId.error = "ID number is required"
+        } else {
+            binding.tilId.error = null
+        }
+
         val phoneNumber = binding.etPhoneNumber.text.toString()
-        if (phoneNumber.isBlank()){
-            formErr =true
-            binding.tilPhone.error ="phone number is required"
+        if (phoneNumber.isBlank()) {
+            formErr = true
+            binding.tilPhone.error = "Phone number is required"
+        } else {
+            binding.tilPhone.error = null
         }
-        if (!formErr){
-            //proceed to registration
+
+        if (!formErr) {
+            // Proceed to registration
+            val intent = Intent(this, MainActivity4::class.java)
+            startActivity(intent)
         }
+    }
         fun clearForms(){
             binding.tilFirstname.error=null
             binding.tilLastName.error=null
@@ -56,4 +69,3 @@ class MainActivity3 : AppCompatActivity() {
             binding.tilPhone.error = null
         }
     }
-}
