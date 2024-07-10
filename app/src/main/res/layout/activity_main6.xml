@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity6">
@@ -10,6 +17,7 @@
                 <TextView
                     android:id="@+id/tvCategories"
                     android:layout_width="wrap_content"
+                    style="@style/tvTitleStyle"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="28dp"
@@ -23,6 +31,7 @@
                 <ImageView
                     android:id="@+id/imageView9"
                     android:layout_width="109dp"
+                    style="@style/tvTitleStyle"
                     android:layout_height="102dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="52dp"
@@ -56,6 +65,7 @@
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="wrap_content"
+                    style="@style/tvTitleStyle"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="52dp"
                     android:layout_marginTop="16dp"
@@ -68,6 +78,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="68dp"
+                    style="@style/tvTitleStyle"
                     android:layout_marginTop="12dp"
                     android:text="News"
                     app:layout_constraintStart_toEndOf="@+id/textView19"
@@ -80,6 +91,7 @@
                     android:layout_marginStart="81dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="60dp"
+                    style="@style/tvTitleStyle"
                     android:text="TextView"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -94,6 +106,7 @@
                     android:layout_marginTop="77dp"
                     android:layout_marginEnd="283dp"
                     android:text="Products Updates"
+                    style="@style/tvTitleStyle"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView19" />
@@ -135,6 +148,7 @@
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="13dp"
                     android:text="Firtilizer"
+                    style="@style/tvTitleStyle"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
@@ -145,6 +159,7 @@
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="12dp"
                     android:text="Ksh 300"
+                    style="@style/tvTitleStyle"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
@@ -155,6 +170,7 @@
                     android:layout_marginStart="86dp"
                     android:layout_marginTop="13dp"
                     android:text="Firtilizer"
+                    style="@style/tvTitleStyle"
                     app:layout_constraintStart_toEndOf="@+id/textView23"
                     app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
@@ -165,6 +181,7 @@
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="16dp"
                     android:text="Ksh 300"
+                    style="@style/tvTitleStyle"
                     app:layout_constraintStart_toEndOf="@+id/textView24"
                     app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
@@ -176,6 +193,7 @@
                     android:layout_marginTop="13dp"
                     android:layout_marginEnd="24dp"
                     android:text="Firtilizer"
+                    style="@style/tvTitleStyle"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.275"
                     app:layout_constraintStart_toEndOf="@+id/textView25"
@@ -189,6 +207,7 @@
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="24dp"
                     android:text="Ksh 300"
+                    style="@style/tvTitleStyle"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.385"
                     app:layout_constraintStart_toEndOf="@+id/textView26"
@@ -267,3 +286,4 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
