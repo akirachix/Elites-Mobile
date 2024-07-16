@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#53930B"
-    tools:context=".MainActivity">
+    >
 
 
     <ImageView
@@ -29,6 +29,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="156dp"
         android:layout_marginEnd="24dp"
+        android:background="@color/btn_white"
         android:text="Get Started"
 
         android:textSize="30sp"
@@ -41,10 +42,12 @@
         android:id="@+id/txtInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="40dp"
-        android:textColor="@color/white"
         android:text="Keeping you informed and updated on the prices for all input products for all your farnmactivities"
+        android:textColor="@color/white"
+        android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/btn1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
