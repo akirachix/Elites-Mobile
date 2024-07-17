@@ -1,0 +1,887 @@
+Index: .idea/other.xml
+===================================================================
+diff --git a/.idea/other.xml b/.idea/other.xml
+deleted file mode 100644
+--- a/.idea/other.xml	
++++ /dev/null	
+@@ -1,263 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="direct_access_persist.xml">
+-    <option name="deviceSelectionList">
+-      <list>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="27" />
+-          <option name="brand" value="DOCOMO" />
+-          <option name="codename" value="F01L" />
+-          <option name="id" value="F01L" />
+-          <option name="manufacturer" value="FUJITSU" />
+-          <option name="name" value="F-01L" />
+-          <option name="screenDensity" value="360" />
+-          <option name="screenX" value="720" />
+-          <option name="screenY" value="1280" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="28" />
+-          <option name="brand" value="DOCOMO" />
+-          <option name="codename" value="SH-01L" />
+-          <option name="id" value="SH-01L" />
+-          <option name="manufacturer" value="SHARP" />
+-          <option name="name" value="AQUOS sense2 SH-01L" />
+-          <option name="screenDensity" value="480" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2160" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="31" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="a51" />
+-          <option name="id" value="a51" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy A51" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="akita" />
+-          <option name="id" value="akita" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 8a" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="b0q" />
+-          <option name="id" value="b0q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy S22 Ultra" />
+-          <option name="screenDensity" value="600" />
+-          <option name="screenX" value="1440" />
+-          <option name="screenY" value="3088" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="32" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="bluejay" />
+-          <option name="id" value="bluejay" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 6a" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="29" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="crownqlteue" />
+-          <option name="id" value="crownqlteue" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy Note9" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="2220" />
+-          <option name="screenY" value="1080" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="dm3q" />
+-          <option name="id" value="dm3q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy S23 Ultra" />
+-          <option name="screenDensity" value="600" />
+-          <option name="screenX" value="1440" />
+-          <option name="screenY" value="3088" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="felix" />
+-          <option name="id" value="felix" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel Fold" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="2208" />
+-          <option name="screenY" value="1840" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="felix_camera" />
+-          <option name="id" value="felix_camera" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel Fold (Camera-enabled)" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="2208" />
+-          <option name="screenY" value="1840" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="gts8uwifi" />
+-          <option name="id" value="gts8uwifi" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy Tab S8 Ultra" />
+-          <option name="screenDensity" value="320" />
+-          <option name="screenX" value="1848" />
+-          <option name="screenY" value="2960" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="husky" />
+-          <option name="id" value="husky" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 8 Pro" />
+-          <option name="screenDensity" value="390" />
+-          <option name="screenX" value="1008" />
+-          <option name="screenY" value="2244" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="30" />
+-          <option name="brand" value="motorola" />
+-          <option name="codename" value="java" />
+-          <option name="id" value="java" />
+-          <option name="manufacturer" value="Motorola" />
+-          <option name="name" value="G20" />
+-          <option name="screenDensity" value="280" />
+-          <option name="screenX" value="720" />
+-          <option name="screenY" value="1600" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="lynx" />
+-          <option name="id" value="lynx" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 7a" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="31" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="oriole" />
+-          <option name="id" value="oriole" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 6" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="panther" />
+-          <option name="id" value="panther" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 7" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="31" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="q2q" />
+-          <option name="id" value="q2q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy Z Fold3" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1768" />
+-          <option name="screenY" value="2208" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="q5q" />
+-          <option name="id" value="q5q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy Z Fold5" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1812" />
+-          <option name="screenY" value="2176" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="30" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="r11" />
+-          <option name="id" value="r11" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel Watch" />
+-          <option name="screenDensity" value="320" />
+-          <option name="screenX" value="384" />
+-          <option name="screenY" value="384" />
+-          <option name="type" value="WEAR_OS" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="30" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="redfin" />
+-          <option name="id" value="redfin" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 5" />
+-          <option name="screenDensity" value="440" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2340" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="34" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="shiba" />
+-          <option name="id" value="shiba" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel 8" />
+-          <option name="screenDensity" value="420" />
+-          <option name="screenX" value="1080" />
+-          <option name="screenY" value="2400" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="33" />
+-          <option name="brand" value="google" />
+-          <option name="codename" value="tangorpro" />
+-          <option name="id" value="tangorpro" />
+-          <option name="manufacturer" value="Google" />
+-          <option name="name" value="Pixel Tablet" />
+-          <option name="screenDensity" value="320" />
+-          <option name="screenX" value="1600" />
+-          <option name="screenY" value="2560" />
+-        </PersistentDeviceSelectionData>
+-        <PersistentDeviceSelectionData>
+-          <option name="api" value="29" />
+-          <option name="brand" value="samsung" />
+-          <option name="codename" value="x1q" />
+-          <option name="id" value="x1q" />
+-          <option name="manufacturer" value="Samsung" />
+-          <option name="name" value="Galaxy S20" />
+-          <option name="screenDensity" value="480" />
+-          <option name="screenX" value="1440" />
+-          <option name="screenY" value="3200" />
+-        </PersistentDeviceSelectionData>
+-      </list>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: app/src/main/res/drawable/emoji_sad_svgrepo_com.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/emoji_sad_svgrepo_com.xml b/app/src/main/res/drawable/emoji_sad_svgrepo_com.xml
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/res/drawable/emoji_sad_svgrepo_com.xml	
+@@ -0,0 +1,11 @@
++<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="50dp" android:viewportHeight="24" android:viewportWidth="24" android:width="50dp">
++      
++    <path android:fillColor="#64E118" android:pathData="M8.5,11C9.328,11 10,10.328 10,9.5C10,8.672 9.328,8 8.5,8C7.672,8 7,8.672 7,9.5C7,10.328 7.672,11 8.5,11Z" android:strokeColor="#64E118" android:strokeWidth="1"/>
++      
++    <path android:fillColor="#64E118" android:pathData="M17,9.5C17,10.328 16.328,11 15.5,11C14.672,11 14,10.328 14,9.5C14,8.672 14.672,8 15.5,8C16.328,8 17,8.672 17,9.5Z" android:strokeColor="#64E118" android:strokeWidth="1"/>
++      
++    <path android:fillColor="#64E118" android:pathData="M15.109,16.459C15.36,16.944 15.955,17.139 16.445,16.894C16.939,16.647 17.139,16.047 16.892,15.553C16.81,15.388 16.705,15.234 16.594,15.087C16.412,14.844 16.136,14.53 15.747,14.219C14.958,13.587 13.741,13 11.998,13C10.255,13 9.037,13.587 8.248,14.219C7.86,14.53 7.584,14.844 7.401,15.087C7.29,15.235 7.19,15.389 7.104,15.552C6.859,16.039 7.063,16.65 7.55,16.894C8.041,17.139 8.636,16.944 8.886,16.459C8.9,16.434 9.088,16.108 9.497,15.781C9.958,15.413 10.741,15 11.998,15C13.255,15 14.038,15.413 14.498,15.781C14.907,16.108 15.095,16.434 15.109,16.459Z" android:strokeColor="#64E118" android:strokeWidth="1"/>
++      
++    <path android:fillColor="#64E118" android:fillType="evenOdd" android:pathData="M12,23C18.075,23 23,18.075 23,12C23,5.925 18.075,1 12,1C5.925,1 1,5.925 1,12C1,18.075 5.925,23 12,23ZM12,20.993C7.033,20.993 3.007,16.967 3.007,12C3.007,7.033 7.033,3.007 12,3.007C16.967,3.007 20.993,7.033 20.993,12C20.993,16.967 16.967,20.993 12,20.993Z" android:strokeColor="#64E118" android:strokeWidth="1"/>
++    
++</vector>
+Index: app/src/main/res/values/style.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/style.xml b/app/src/main/res/values/style.xml
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/res/values/style.xml	
+@@ -0,0 +1,21 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++
++    <style name="CustomSeekBar" parent="Widget.AppCompat.SeekBar">
++
++
++
++    </style>
++    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
++        <item name="boxStrokeColor">@color/green</item>
++        <item name="boxBackgroundColor">@android:color/transparent</item>
++        <item name="boxStrokeWidth">2dp</item>
++        <item name="boxStrokeWidthFocused">2dp</item>
++        <item name="boxCornerRadiusTopStart">4dp</item>
++        <item name="boxCornerRadiusTopEnd">4dp</item>
++        <item name="boxCornerRadiusBottomStart">4dp</item>
++        <item name="boxCornerRadiusBottomEnd">4dp</item>
++        <item name="android:padding">0dp</item>
++    </style>
++
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/drawable/button_background.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/button_background.xml b/app/src/main/res/drawable/button_background.xml
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/res/drawable/button_background.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android">
++    <solid android:color="@color/white"/>
++    <corners android:radius="10dp"/>
++    <stroke android:width="2dp" android:color="@color/green"/>
++</shape>
+\ No newline at end of file
+Index: app/src/main/java/com/caren/dev/umuhinzi_mobile_app/FeedbackActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/FeedbackActivity.kt b/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/FeedbackActivity.kt
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/FeedbackActivity.kt	
+@@ -0,0 +1,20 @@
++package com.caren.dev.umuhinzi_mobile_app
++
++import android.os.Bundle
++import androidx.activity.enableEdgeToEdge
++import androidx.appcompat.app.AppCompatActivity
++import androidx.core.view.ViewCompat
++import androidx.core.view.WindowInsetsCompat
++
++class FeedbackActivity : AppCompatActivity() {
++    override fun onCreate(savedInstanceState: Bundle?) {
++        super.onCreate(savedInstanceState)
++        enableEdgeToEdge()
++        setContentView(R.layout.activity_feedback)
++        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
++            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
++            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
++            insets
++        }
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_feedback.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_feedback.xml b/app/src/main/res/layout/activity_feedback.xml
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/res/layout/activity_feedback.xml	
+@@ -0,0 +1,90 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/main"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".FeedbackActivity">
++
++    <ImageView
++        android:id="@+id/imageView2"
++        android:layout_width="90dp"
++        android:layout_height="78dp"
++        android:layout_marginTop="253dp"
++        android:layout_marginEnd="34dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:srcCompat="@drawable/happy_emoji_svgrepo_com" />
++
++    <ImageView
++        android:id="@+id/imageView4"
++        android:layout_width="90dp"
++        android:layout_height="78dp"
++        android:layout_marginTop="253dp"
++        android:layout_marginEnd="35dp"
++        app:layout_constraintEnd_toStartOf="@+id/imageView2"
++        app:layout_constraintTop_toTopOf="parent"
++        app:srcCompat="@drawable/neutral_face_svgrepo_com" />
++
++    <ImageView
++        android:id="@+id/imageView9"
++        android:layout_width="90dp"
++        android:layout_height="78dp"
++        android:layout_marginTop="253dp"
++        android:layout_marginEnd="35dp"
++        app:layout_constraintEnd_toStartOf="@+id/imageView4"
++        app:layout_constraintTop_toTopOf="parent"
++        app:srcCompat="@drawable/emoji_sad_svgrepo_com" />
++
++    <TextView
++        android:id="@+id/textView"
++        android:layout_width="0dp"
++        android:layout_height="30dp"
++        android:layout_marginStart="20dp"
++        android:layout_marginTop="126dp"
++        android:text="How was your experience using this app?"
++        android:textSize="20dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <TextView
++        android:id="@+id/textView3"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Unhappy"
++        tools:layout_editor_absoluteX="57dp"
++        tools:layout_editor_absoluteY="353dp"
++        tools:ignore="MissingConstraints" />
++
++    <TextView
++        android:id="@+id/textView4"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Neutral"
++        tools:layout_editor_absoluteX="170dp"
++        tools:layout_editor_absoluteY="350dp"
++        tools:ignore="MissingConstraints" />
++
++    <TextView
++        android:id="@+id/textView8"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Satisfied"
++        tools:layout_editor_absoluteX="305dp"
++        tools:layout_editor_absoluteY="350dp"
++        tools:ignore="MissingConstraints" />
++
++    <TextView
++        android:id="@+id/textView12"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="60dp"
++        android:text="Feedback"
++        android:textSize="30dp"
++        android:textFontWeight="@integer/material_motion_duration_long_2"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/caren/dev/umuhinzi_mobile_app/continuation_of_sign_upActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/continuation_of_sign_upActivity.kt b/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/continuation_of_sign_upActivity.kt
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/continuation_of_sign_upActivity.kt	
+@@ -0,0 +1,15 @@
++package com.caren.dev.umuhinzi_mobile_app
++
++import android.os.Bundle
++import androidx.activity.enableEdgeToEdge
++import androidx.appcompat.app.AppCompatActivity
++import androidx.core.view.ViewCompat
++import androidx.core.view.WindowInsetsCompat
++
++class continuation_of_sign_upActivity : AppCompatActivity() {
++    override fun onCreate(savedInstanceState: Bundle?) {
++        super.onCreate(savedInstanceState)
++        enableEdgeToEdge()
++
++        }
++    }
+Index: app/src/main/res/drawable/border_radius.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/border_radius.xml b/app/src/main/res/drawable/border_radius.xml
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/res/drawable/border_radius.xml	
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android">
++    <solid android:color="@color/white"/>
++    <corners android:radius="10dp"/>
++    <stroke android:width="2dp" android:color="@color/green"/>
++
++</shape>
+\ No newline at end of file
+Index: app/src/main/java/com/caren/dev/umuhinzi_mobile_app/Activity_SignUp.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/Activity_SignUp.kt b/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/Activity_SignUp.kt
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/Activity_SignUp.kt	
+@@ -0,0 +1,20 @@
++package com.caren.dev.umuhinzi_mobile_app
++
++import android.os.Bundle
++import androidx.activity.enableEdgeToEdge
++import androidx.appcompat.app.AppCompatActivity
++import androidx.core.view.ViewCompat
++import androidx.core.view.WindowInsetsCompat
++
++class Activity_SignUp : AppCompatActivity() {
++    override fun onCreate(savedInstanceState: Bundle?) {
++        super.onCreate(savedInstanceState)
++        enableEdgeToEdge()
++        setContentView(R.layout.activity_sign_up)
++        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
++            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
++            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
++            insets
++        }
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_continuation_of_sign_up.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_continuation_of_sign_up.xml b/app/src/main/res/layout/activity_continuation_of_sign_up.xml
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/res/layout/activity_continuation_of_sign_up.xml	
+@@ -0,0 +1,93 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/main"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".continuation_of_sign_upActivity">
++
++    <com.google.android.material.textfield.TextInputLayout
++        android:id="@+id/textInputLayout4"
++        android:layout_width="409dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="1dp"
++        android:layout_marginTop="164dp"
++        android:background="@drawable/border_radius"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent">
++
++        <com.google.android.material.textfield.TextInputEditText
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:hint="Password" />
++    </com.google.android.material.textfield.TextInputLayout>
++
++    <Button
++        android:id="@+id/button3"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginBottom="250dp"
++        android:backgroundTint="@color/green"
++        android:text="Sign Up"
++        android:textColor="@color/black"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent" />
++
++    <TextView
++        android:id="@+id/textView2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Already Have An Account? LogIn"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        tools:layout_editor_absoluteY="571dp"
++        tools:ignore="MissingConstraints" />
++
++    <com.google.android.material.textfield.TextInputLayout
++        android:layout_width="409dp"
++        android:layout_height="wrap_content"
++        android:layout_marginBottom="400dp"
++        android:background="@drawable/border_radius"
++        app:layout_constraintBottom_toBottomOf="parent"
++        tools:ignore="MissingConstraints"
++        tools:layout_editor_absoluteX="1dp">
++
++        <com.google.android.material.textfield.TextInputEditText
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:background=""
++            android:hint="Confirm Password" />
++    </com.google.android.material.textfield.TextInputLayout>
++
++    <TextView
++        android:id="@+id/textView10"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="50dp"
++        android:text="Finish the Process"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <SeekBar
++        android:id="@+id/seekBar2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="16dp"
++        android:layout_marginTop="108dp"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <TextView
++        android:id="@+id/textView11"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="17dp"
++        android:layout_marginTop="75dp"
++        android:text="Step 2"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/caren/dev/umuhinzi_mobile_app/ActivitySignUp.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/ActivitySignUp.kt b/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/ActivitySignUp.kt
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/caren/dev/umuhinzi_mobile_app/ActivitySignUp.kt	
+@@ -0,0 +1,20 @@
++package com.caren.dev.umuhinzi_mobile_app
++
++import android.os.Bundle
++import androidx.activity.enableEdgeToEdge
++import androidx.appcompat.app.AppCompatActivity
++import androidx.core.view.ViewCompat
++import androidx.core.view.WindowInsetsCompat
++
++class ActivitySignUp : AppCompatActivity() {
++    override fun onCreate(savedInstanceState: Bundle?) {
++        super.onCreate(savedInstanceState)
++        enableEdgeToEdge()
++        setContentView(R.layout.activity_sign_up)
++        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
++            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
++            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
++            insets
++        }
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_sign_up.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_sign_up.xml b/app/src/main/res/layout/activity_sign_up.xml
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/res/layout/activity_sign_up.xml	
+@@ -0,0 +1,125 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:id="@+id/main"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".ActivitySignUp">
++
++    <Button
++        android:id="@+id/btNext"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginBottom="80dp"
++        android:backgroundTint="@color/green"
++        android:text="Next"
++        android:textFontWeight="@android:integer/config_mediumAnimTime"
++        android:textColor="@color/black"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        tools:ignore="MissingConstraints" />
++
++    <com.google.android.material.textfield.TextInputLayout
++        android:id="@+id/textInputLayout"
++        android:layout_width="409dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="1dp"
++        android:layout_marginTop="60dp"
++        android:background="@drawable/border_radius"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/seekBar3">
++
++        <com.google.android.material.textfield.TextInputEditText
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:background="@drawable/border_radius"
++            android:hint="Name" />
++    </com.google.android.material.textfield.TextInputLayout>
++
++    <com.google.android.material.textfield.TextInputLayout
++        android:id="@+id/textInputLayout2"
++        android:layout_width="409dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="1dp"
++        android:layout_marginTop="60dp"
++        android:background="@drawable/border_radius"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
++
++        <com.google.android.material.textfield.TextInputEditText
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:hint="Enter Email"
++            android:background="@drawable/border_radius"/>
++    </com.google.android.material.textfield.TextInputLayout>
++
++    <com.google.android.material.textfield.TextInputLayout
++        android:id="@+id/textInputLayout3"
++        android:layout_width="409dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="1dp"
++        android:layout_marginTop="60dp"
++        android:background="@drawable/border_radius"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
++
++        <com.google.android.material.textfield.TextInputEditText
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:hint="Enter Number"
++            android:background="@drawable/border_radius"/>
++    </com.google.android.material.textfield.TextInputLayout>
++
++    <com.google.android.material.textfield.TextInputLayout
++        android:id="@+id/textInputLayout5"
++        android:layout_width="409dp"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="1dp"
++        android:layout_marginTop="60dp"
++        android:background="@drawable/border_radius"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
++
++        <com.google.android.material.textfield.TextInputEditText
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:background="@drawable/border_radius"
++            android:hint="Enter ID" />
++    </com.google.android.material.textfield.TextInputLayout>
++
++    <SeekBar
++        android:id="@+id/seekBar3"
++        android:layout_width="368dp"
++        android:layout_height="20dp"
++        tools:layout_editor_absoluteX="17dp"
++        tools:layout_editor_absoluteY="66dp" />
++
++    <SeekBar
++        android:id="@+id/seekBar4"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        tools:layout_editor_absoluteX="341dp"
++        tools:layout_editor_absoluteY="67dp" />
++
++    <TextView
++        android:id="@+id/textView5"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="Sign Up"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        tools:layout_editor_absoluteY="14dp" />
++
++    <TextView
++        android:id="@+id/textView7"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="18dp"
++        android:layout_marginTop="40dp"
++        android:text="Step 1"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/drawable/happy_emoji_svgrepo_com.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/happy_emoji_svgrepo_com.xml b/app/src/main/res/drawable/happy_emoji_svgrepo_com.xml
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/res/drawable/happy_emoji_svgrepo_com.xml	
+@@ -0,0 +1,36 @@
++<vector xmlns:android="http://schemas.android.com/apk/res/android"
++    android:width="800dp"
++    android:height="800dp"
++    android:viewportWidth="160"
++    android:viewportHeight="160">
++  <path
++      android:strokeWidth="1"
++      android:pathData="M78.63,114.65C68.46,114.7 60.04,112.94 52.96,107.28C50.58,105.37 48.74,102.68 46.98,100.12C45.97,98.65 46.11,96.7 47.93,95.7C49.47,94.86 51.04,95.34 52.12,96.79C58.58,105.51 67.91,107.43 77.9,107.36C81.68,107.34 85.49,106.47 89.23,105.75C95.83,104.47 101.13,101.17 104.73,95.33C105.59,94 106.59,92.78 107.72,91.67C109.15,90.22 110.87,89.29 112.82,90.69C114.56,91.94 114.52,93.68 113.8,95.55C111.74,101.09 107.82,105.75 102.71,108.73C94.9,113.37 86.22,114.42 78.63,114.65Z"
++      android:fillColor="#64E118"
++      android:strokeColor="#64E118"/>
++  <path
++      android:strokeWidth="1"
++      android:pathData="M58.66,49.42L54.3,48.45C44.51,46.29 36.04,48.21 29.36,56.18C28.66,57.01 27.16,57.16 26.03,57.63C25.7,56.34 24.69,54.65 25.17,53.83C26.62,51.37 28.28,48.75 30.51,47.07C39.74,40.11 49.99,39.74 60.61,43.34C62.31,43.92 63.65,45.11 63.18,47.13C62.73,49.13 61.12,49.63 58.66,49.42Z"
++      android:fillColor="#64E118"
++      android:strokeColor="#64E118"/>
++  <path
++      android:strokeWidth="1"
++      android:pathData="M51.88,59.37C57.37,59.48 61.92,61.9 65.61,66.03C66.24,66.67 66.67,67.48 66.84,68.36C66.92,69.52 66.9,71.1 66.21,71.77C65.65,72.31 63.91,72.08 62.93,71.65C61.41,70.98 60.1,69.85 58.69,68.92C51.07,63.87 44.26,65.57 39.72,73.48C39.12,74.52 37.51,75.73 36.5,75.63C34.56,75.42 34.54,73.46 34.73,71.85C35.42,65.66 41.64,60.32 49.02,59.53C49.92,59.43 50.82,59.42 51.88,59.37Z"
++      android:fillColor="#64E118"
++      android:strokeColor="#64E118"/>
++  <path
++      android:strokeWidth="1"
++      android:pathData="M112.27,38.39C116.93,38.23 121.29,39.61 125.41,41.85C126.4,42.38 127.33,43.02 128.19,43.75C129.54,44.94 130.46,46.44 129.45,48.22C128.34,50.16 126.47,50.01 124.67,49.41C123.72,49.05 122.82,48.58 121.98,48.01C114.62,43.36 107.33,43.64 100.07,48.27C98.88,49.12 97.62,49.86 96.3,50.49C95.59,50.79 94.22,50.81 93.87,50.37C93.6,49.97 93.42,49.52 93.33,49.05C93.25,48.58 93.26,48.09 93.37,47.62C93.73,46.68 94.34,45.85 95.12,45.22C99.92,40.75 105.43,38.02 112.27,38.39Z"
++      android:fillColor="#64E118"
++      android:strokeColor="#64E118"/>
++  <path
++      android:strokeWidth="1"
++      android:pathData="M113.69,56.61C117.51,56.48 121.4,58.04 124.69,61.06C125.77,62.04 126.71,63.17 127.46,64.42C128.87,66.81 128.6,69.45 127.04,70.6C125.41,71.81 123.46,71.13 121.31,68.61C115.46,61.76 109.03,61.34 102.18,67.36C101.93,67.58 101.69,67.83 101.43,68.05C100.24,69.12 98.9,70.45 97.34,69.07C95.65,67.57 96.47,65.81 97.57,64.24C100.82,59.58 107.02,56.51 113.69,56.61Z"
++      android:fillColor="#64E118"
++      android:strokeColor="#64E118"/>
++  <path
++      android:strokeWidth="1"
++      android:pathData="M3.8,58.47C-3.21,86.03 2.93,110.33 22.06,130.72C22.56,131.25 23.07,131.78 23.57,132.29C33.85,142.56 46.65,148.9 56.79,153.32C61.14,155.22 83.48,157.53 89.52,156.63C125.43,151.26 149.06,131.01 157.29,97.13C158.86,90.49 159.65,83.69 159.62,76.87C159.66,60.8 152.9,42.12 138.94,28.13C137.51,26.94 136.08,25.71 134.69,24.51C131.69,21.93 128.59,19.26 125.34,16.98C100.54,-0.47 74.78,-0.57 48.76,8.69C25.21,17.06 10.08,33.82 3.8,58.47ZM48.86,16.94C71.69,7.45 94.59,5.78 116.93,19.98C121.01,22.58 131.9,31.38 133.62,32.71L133.72,32.79L133.82,32.89C142.53,42.13 152.51,59.03 152.29,76.4C152.22,83.82 151.21,91.21 149.3,98.39C143.62,119.01 130.06,134.04 107.83,144.32C85.23,155.14 52.81,144.2 44.19,138.51C34.66,131.99 26.32,123.89 19.54,114.54C8.9,99.48 6.51,77.83 12.23,58.03C14.9,48.89 19.58,40.47 25.91,33.36C32.25,26.25 40.09,20.64 48.86,16.94Z"
++      android:fillColor="#64E118"
++      android:strokeColor="#64E118"/>
++</vector>
+Index: app/src/main/res/drawable/neutral_face_svgrepo_com.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/neutral_face_svgrepo_com.xml b/app/src/main/res/drawable/neutral_face_svgrepo_com.xml
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/res/drawable/neutral_face_svgrepo_com.xml	
+@@ -0,0 +1,13 @@
++<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="30dp" android:viewportHeight="36" android:viewportWidth="36" android:width="30dp">
++      
++    <path android:fillColor="#64E118" android:pathData="M24.05,22.06h-12a1,1 0,0 0,0 2h12a1,1 0,0 0,0 -2Z" android:strokeColor="#64E118" android:strokeWidth="1"/>
++      
++    <path android:fillColor="#64E118" android:pathData="M18,2A16,16 0,1 0,34 18,16 16,0 0,0 18,2ZM18,32A14,14 0,1 1,32 18,14 14,0 0,1 18,32Z" android:strokeColor="#64E118" android:strokeWidth="1"/>
++      
++    <path android:fillColor="#64E118" android:pathData="M25.16,14.28m-1.8,0a1.8,1.8 0,1 1,3.6 0a1.8,1.8 0,1 1,-3.6 0" android:strokeColor="#64E118" android:strokeWidth="1"/>
++      
++    <path android:fillColor="#64E118" android:pathData="M11.16,14.28m-1.8,0a1.8,1.8 0,1 1,3.6 0a1.8,1.8 0,1 1,-3.6 0" android:strokeColor="#64E118" android:strokeWidth="1"/>
++      
++    <path android:fillAlpha="0" android:fillColor="#64E118" android:pathData="M0,0h36v36h-36z" android:strokeColor="#64E118" android:strokeWidth="1"/>
++    
++</vector>
