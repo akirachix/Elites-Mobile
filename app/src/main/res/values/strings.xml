@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">InvestikaTrial</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="or">Or</string>
+    <string name="cdSKtUvnl9Q4Y3NtvSWWDYmLPctEdlfQ" />
+
 </resources>
